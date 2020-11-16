@@ -1,13 +1,59 @@
 body {
+	 background: #b7b7b7;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #b7b7b7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.padding_bottom {
+  padding-bottom: 10px;
+}
+
+.font_small { 
+   text-align: center;
+font-size: 0.7rem;
+}
+
+font_small2{
+font-size: 0.7rem;
+
+}
+
+
+.image_align{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image_align_right{
+    margin-right: 10%;
+}
+
+.col-sm-4{
+    padding-bottom: 50px;
+    min-width: 220px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
